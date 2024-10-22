@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GridConfig
   m_EditorClassIdentifier: 
   CellSize: {x: 0.5, y: 0.5}
-  StartPosition: {x: -2.25, y: -2}
+  StartPosition: {x: -1.75, y: -2}
   ColorMappings:
   - {r: 1, g: 1, b: 1, a: 0.94509804}
   - {r: 0.14680782, g: 0.8962264, b: 0.038047332, a: 0.92941177}
@@ -23,5 +23,5 @@ MonoBehaviour:
   - {r: 0.8018868, g: 0.06430225, b: 0.4467777, a: 0.94509804}
   - {r: 0.07058822, g: 0.85882354, b: 0.76199543, a: 0.94509804}
   - {r: 0.85882354, g: 0.07058822, b: 0.15515144, a: 0.94509804}
-  GridWidth: 10
-  GridHeight: 10
+  GridWidth: 8
+  GridHeight: 8
