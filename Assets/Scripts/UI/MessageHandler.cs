@@ -17,6 +17,11 @@ public class MessageHandler : MonoBehaviour
         Instance = this;
     }
 
+    public void ShowMessage(string message, Color color)
+    {
+        UpdateText(message, color);
+    }
+
     public void UpdateText(string message, Color? color = null)
     {
         messageQueue.Enqueue((message, color));

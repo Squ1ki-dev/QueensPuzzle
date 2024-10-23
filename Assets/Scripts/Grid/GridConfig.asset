@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02253aec0f0cc934b8c898108d97e565, type: 3}
   m_Name: GridConfig
   m_EditorClassIdentifier: 
-  CellSize: {x: 0.5, y: 0.5}
-  StartPosition: {x: -1.75, y: -2}
+  CellSize: {x: 0.4, y: 0.4}
+  StartPosition: {x: -1.4, y: -2}
   ColorMappings:
   - {r: 1, g: 1, b: 1, a: 0.94509804}
   - {r: 0.14680782, g: 0.8962264, b: 0.038047332, a: 0.92941177}

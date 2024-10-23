@@ -6,13 +6,21 @@ using Tools;
 
 public class GameView : MonoBehaviour
 {
+    public static GameView Instance { get; private set;}
     [SerializeField] private TMP_Text levelTxt;
-    private int levelIdx;
+    protected LevelModel model;
+
+    private void Awake() => Instance = this;
 
     private void Start()
     {
-        LevelModel model = new LevelModel(levelIdx);
-        levelTxt.text = "Level: " + model.levelIdx.ToString();
         WindowManager.Instance.CloseAll();
+        var saves = GameSaves.Instance;
+        levelTxt.text = "Level: " + saves.LoadCurrentLevel("Level");
+    }
+
+    private void Update()
+    {
+        levelTxt.text = "Level: " + GameSaves.Instance.LoadCurrentLevel("Level");
     }
 }
