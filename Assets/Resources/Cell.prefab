@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6373754396889503207}
   - component: {fileID: 788581665765082594}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Queen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 8626505549915503169}
   - component: {fileID: 2833299364446189990}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

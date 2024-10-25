@@ -6,11 +6,6 @@ using Tools;
 
 public static class GridValidation
 {
-    public static bool IsStarInInvalidLocation(int x, int y, ColorType[,] cellColors, CellState[,] cellStates, GridConfig gridConfig, HashSet<ColorType> colorRegionsWithStars)
-    {
-        return IsStarInRowOrColumn(x, y, gridConfig, cellStates) || IsStarOnDiagonals(x, y, cellStates, gridConfig) || IsColorRegionOccupied(y, x, cellColors, colorRegionsWithStars);
-    }
-
     public static bool IsValidStarPlacement(int x, int y, HashSet<ColorType> colorRegionsWithStars, ColorType[,] cellColors)
     {
         ColorType colorType = cellColors[y, x];

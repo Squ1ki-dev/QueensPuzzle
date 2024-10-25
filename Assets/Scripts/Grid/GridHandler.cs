@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using GridEnums;
 using Tools;
+using Array2DEditor;
 
 public class GridHandler : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GridHandler : MonoBehaviour
 
     private CellState[,] cellStates;
     private ColorType[,] cellColors;
+    private Array2DInt array2DInt;
     private HashSet<ColorType> colorRegionsWithQueens;
     
     [SerializeField] private GameObject prefabToInstantiate;

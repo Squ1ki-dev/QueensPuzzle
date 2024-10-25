@@ -35,9 +35,9 @@ public static class CellHandler
     private static void InitializeCellClickHandler(GameObject cellGO, int x, int y)
     {
         CellClickHandler clickHandler = cellGO.GetComponent<CellClickHandler>();
-        if (clickHandler != null)
-            clickHandler.Initialize(GridHandler.Instance, x, y);
-        else
-            Debug.LogError($"CellClickHandler component missing on {cellGO.name}");
+        //if (clickHandler != null)
+            //clickHandler.Initialize(GridMap.Instance, x, y);
+        //else
+        //    Debug.LogError($"CellClickHandler component missing on {cellGO.name}");
     }
 }
